@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "pr-1485-5-staging"
+    DEPLOY_NAMESPACE = "pr-1649-5-staging"
   }
   stages {
     stage('Validate Environment') {
